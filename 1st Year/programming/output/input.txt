@@ -1,0 +1,3 @@
+print random word in the program.
+magma lava voda tsunami.
+prog is funny but pretty hard.
