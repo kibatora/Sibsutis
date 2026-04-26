@@ -18,7 +18,7 @@
 - контейнеризация: Docker
 
 ## Структура проекта
-
+```bash
 backend/
   app/
     main.py
@@ -26,21 +26,22 @@ backend/
   docker/
     docker-compose.yaml
   uploads/
-
+```
+```bash
 frontend/
   src/
   public/
   package.json
   vite.config.js
-
+```
 ## Запуск backend
-
+```bash
 cd backend
 python -m venv venv
 venv\Scripts\activate
 pip install -r app/requirements.txt
 uvicorn app.main:app --reload
-
+```
 Backend будет доступен по адресу:
 http://127.0.0.1:8000
 
@@ -48,21 +49,21 @@ http://127.0.0.1:8000
 http://127.0.0.1:8000/health-check
 
 ## Запуск frontend
-
+```bash
 cd frontend
 npm install
 npm run dev
-
+```
 Frontend будет доступен по адресу:
 http://localhost:5173
 
 ## Запуск базы данных
-
+```bash
 cd backend/docker
 docker compose up -d
-
+```
 ## Примечание
 
-Проект разработан в учебных целях по предмету - WEB-технологии и демонстрирует взаимодействие frontend и backend частей веб-приложения.
+Проект разработан в учебных целях и демонстрирует взаимодействие frontend и backend частей веб-приложения.
 
-Создан студентом ИА-232 Зырянов Иван
+Создан в качестве РГР по предмету - WEB-технологии, студентом ИА-232 Зырянов Иван
