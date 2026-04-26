@@ -6,7 +6,8 @@
 \contentsline {section}{\numberline {2.3}Модель данных и реализация API}{6}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Фронтенд и взаимодействие с API}{7}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Пользовательский интерфейс}{7}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Трудности и их решение}{7}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Запуск проекта}{8}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Интерфейс и соответствие макету Figma}{8}{section.2.8}%
-\contentsline {chapter}{\chapternumberline {3}Выводы}{11}{chapter.3}%
+\contentsline {section}{\numberline {2.6}Используемые подходы и анализ разработки}{7}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Трудности и их решение}{8}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Запуск проекта}{8}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Интерфейс и соответствие макету Figma}{9}{section.2.9}%
+\contentsline {chapter}{\chapternumberline {3}Выводы}{12}{chapter.3}%

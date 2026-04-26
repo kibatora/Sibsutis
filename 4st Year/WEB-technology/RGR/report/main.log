@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.5)  26 APR 2026 13:01
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.5)  26 APR 2026 13:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1601,18 +1601,17 @@ Underfull \hbox (badness 8056) in paragraph at lines 60--61
 HTML-тега
  []
 
-[7]
+[7] [8]
 File: img/Screenshot_1.png Graphic file (type bmp)
 <img/Screenshot_1.png>
- [8]
 File: img/Screenshot_2.png Graphic file (type bmp)
 <img/Screenshot_2.png>
+ [9]
 File: img/Screenshot_3.png Graphic file (type bmp)
 <img/Screenshot_3.png>
- [9]
 File: img/Screenshot_4.png Graphic file (type bmp)
 <img/Screenshot_4.png>
- [10]
+ [10] [11]
 Глава 3.
 )
 
@@ -1626,13 +1625,13 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[table] on input line 88.
 See the caption package documentation for explanation.
 
-[11
+[12
 
 ]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
-runsystem(latexminted cleantemp  --timestamp 20260426130145 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20260426135205 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
  (main.aux)
@@ -1641,18 +1640,18 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F8242F9AC4BC16929772D21F2C1C1137;2602.
+(rerunfilecheck)             Checksum: EBD8A729842A1C69890B912E2FC3A5D2;2977.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33492 strings out of 402983
- 677738 string characters out of 5448690
- 1954325 words of memory out of 5000000
- 61847 multiletter control sequences out of 15000+600000
+ 33493 strings out of 402983
+ 677755 string characters out of 5448690
+ 1954712 words of memory out of 5000000
+ 61848 multiletter control sequences out of 15000+600000
  629934 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  85i,12n,108p,1223b,4031s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (11 pages).
+Output written on main.pdf (12 pages).
