@@ -1,0 +1,13 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{create\PYGZus{}app}\PYG{p}{()} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n}{FastAPI}\PYG{p}{:}
+    \PYG{n}{application} \PYG{o}{=} \PYG{n}{FastAPI}\PYG{p}{(}
+        \PYG{n}{title}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}Video Platform API\PYGZdq{}}\PYG{p}{,}
+        \PYG{n}{lifespan}\PYG{o}{=}\PYG{n}{lifespan}\PYG{p}{,}
+    \PYG{p}{)}
+    \PYG{n}{application}\PYG{o}{.}\PYG{n}{mount}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}/uploads\PYGZdq{}}\PYG{p}{,} \PYG{n}{StaticFiles}\PYG{p}{(}\PYG{n}{directory}\PYG{o}{=}\PYG{n}{UPLOAD\PYGZus{}DIR}\PYG{p}{),} \PYG{n}{name}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}uploads\PYGZdq{}}\PYG{p}{)}
+    \PYG{n}{application}\PYG{o}{.}\PYG{n}{add\PYGZus{}middleware}\PYG{p}{(}\PYG{n}{CORSMiddleware}\PYG{p}{,} \PYG{n}{allow\PYGZus{}origins}\PYG{o}{=}\PYG{n}{FRONTEND\PYGZus{}ORIGINS}\PYG{p}{,} \PYG{o}{...}\PYG{p}{)}
+    \PYG{n}{application}\PYG{o}{.}\PYG{n}{include\PYGZus{}router}\PYG{p}{(}\PYG{n}{health\PYGZus{}router}\PYG{p}{)}
+    \PYG{n}{application}\PYG{o}{.}\PYG{n}{include\PYGZus{}router}\PYG{p}{(}\PYG{n}{users\PYGZus{}router}\PYG{p}{)}
+    \PYG{n}{application}\PYG{o}{.}\PYG{n}{include\PYGZus{}router}\PYG{p}{(}\PYG{n}{videos\PYGZus{}router}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{application}
+\end{MintedVerbatim}
